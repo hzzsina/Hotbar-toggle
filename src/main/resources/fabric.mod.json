@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "hotbar_toggle",
+	"version": "${version}",
+	"name": "Hotbar Toggle",
+	"description": "Makes the 1 key toggle the selected hotbar slot between slots 1 and 2.",
+	"authors": [
+		"Ali SaNa"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ca.alisana.hotbartoggle.HotbarToggleClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
